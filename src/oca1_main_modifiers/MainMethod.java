@@ -24,7 +24,7 @@ public class MainMethod {
 	// Needs to accept args:  singular (String args...)
 	//						  array    (String args[])	
 	public static void main(String args[]) {
-		System.out.println("James is amazing");	
+		System.out.println("James");	
 		
 	}
 	
