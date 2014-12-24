@@ -129,17 +129,17 @@ public class Arrays {
 		myArrList.remove(new MyClass());		// will not remove object James unless
 												// you override the equals method in object
 												// 'James' with the code below:	
-											/*
-											public boolean equals(Object obj) {
-												if (obj instanceof MyPerson) {
-													MyPerson p = (MyPerson)obj;
-													boolean isEqual = p.name.equals(this.name);
-													return isEqual;
-												}
-												else
-													return false;
-											}
-											*/
+		/*
+		public boolean equals(Object obj) {
+			if (obj instanceof MyPerson) {
+				MyPerson p = (MyPerson)obj;
+				boolean isEqual = p.name.equals(this.name);
+				return isEqual;
+			}
+			else
+				return false;
+		}
+		*/
 
 		// adding multiple values to array list
 		ArrayList<StringBuilder> yourArrList = new ArrayList<StringBuilder>();
