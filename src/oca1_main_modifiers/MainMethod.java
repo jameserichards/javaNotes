@@ -4,12 +4,12 @@ package oca1_main_modifiers;
 
 // Importing a class does not import recursively the  classes below it
 // com.oracle.javacert.*;  does not import  com.oracle.javacert.associate.*;
-import handWrittenNotes.PrintJames;
+import notesClassesInterfaces.MyClass;
 
 // import static  -  imports static members of a class
 // Allows access to variable printJamesStatic without prefixing class name
 // this is because it is public
-import static handWrittenNotes.PrintJames.printJamesStatic;
+import static notesClassesInterfaces.MyClass.printJamesStatic;
 
 // public class or interfaces should match the name of the Java sourcecode file
 // source code file can only define 1 public class or interface

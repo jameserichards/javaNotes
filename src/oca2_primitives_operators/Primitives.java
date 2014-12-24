@@ -1,6 +1,6 @@
 package oca2_primitives_operators;
 
-import handWrittenNotes.PrintJames;
+import notesClassesInterfaces.MyClass;
 
 public class Primitives {
 	
@@ -85,6 +85,6 @@ public class Primitives {
 	// 		Stores address of object it refers to in the stack, not the actual object.
 	// 		jamesRV = reference variable for object in memory
 	// 		PrintJames() = object
-	PrintJames jamesRV = new PrintJames();
+	MyClass jamesRV = new MyClass();
 
 }

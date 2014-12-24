@@ -1,6 +1,6 @@
 package oca4_strings_arrays;
 
-import handWrittenNotes.PrintJames;
+import notesClassesInterfaces.MyClass;
 
 public class Strings {
 	
@@ -153,7 +153,7 @@ public class Strings {
 	
 		StringBuilder sb7 = new StringBuilder();
 		sb7.append("Java");
-		sb7.append(new PrintJames());
+		sb7.append(new MyClass());
 		System.out.println(sb7);
 		// JavahandWrittenNotes.PrintJames@1c869e8f
 		// if PrintJames had a toString method it would append the return value

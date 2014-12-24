@@ -1,6 +1,6 @@
-package handWrittenNotes;
+package notesClassesInterfaces;
 
-public class PrintJames {
+public class MyClass implements MyInterface {
 	
 	public static void printJamesStatic(){
 		System.out.println("James");

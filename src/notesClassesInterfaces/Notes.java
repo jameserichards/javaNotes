@@ -1,4 +1,4 @@
-package handWrittenNotes;
+package notesClassesInterfaces;
 
 class James			// class inside a .java file
 James.java			// Java source code file, contains class James

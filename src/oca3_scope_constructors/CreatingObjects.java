@@ -1,6 +1,6 @@
 package oca3_scope_constructors;
 
-import handWrittenNotes.PrintJames;
+import notesClassesInterfaces.MyClass;
 
 // Scope of variables
 
@@ -8,8 +8,8 @@ public class CreatingObjects {
 	
 	public void myMethod() {
 		
-		PrintJames print;				// create new reference variable
-		print = new PrintJames();		// new object initialised
+		MyClass print;				// create new reference variable
+		print = new MyClass();		// new object initialised
 	
 		// both are valid for String variables
 		String obj1 = new String("eJava");
@@ -18,7 +18,7 @@ public class CreatingObjects {
 		// Object creation below valid but not accessible via any 
 		// reference variable; relevant constructors for the class 
 		// are executed
-		new PrintJames();
+		new MyClass();
 	
 		// variables exist until they go out of scope or are set to null
 	}
