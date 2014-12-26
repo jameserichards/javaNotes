@@ -29,8 +29,8 @@ public class Constructors {
 		number = newAge;
 	}
 
-	// Invoke one constructor from another with 'this'
-	// 'this' MUST be first line of code in constructor
+	// this() can be used to Invoke default constructor
+	// 'this()' MUST be first line of code in constructor
 	// Finds constructor compatible with these arguments
 	Constructors() {
 		this(10);
