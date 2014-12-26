@@ -9,5 +9,9 @@ public class MyClass implements MyInterface {
 	public void printJames(){
 		System.out.println("James");
 	}
+	
+	public String returnJames() {
+		return "James";
+	}
 
 }
