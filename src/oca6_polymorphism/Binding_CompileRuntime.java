@@ -7,10 +7,10 @@ public class Binding_CompileRuntime {
 		Employee emp = new Employee();
 		Employee coder = new Coder();
 		System.out.println(emp.name);			// Employee - because at compile time base class
-								// variables are bound. Not 'fresheshed' until runtime
+												// variables are bound. Not 'fresheshed' until runtime
 		System.out.println(coder.name);			// Employee
-		emp.printName();				// Employee
-		coder.printName();				// Programmer - runtime
+		emp.printName();						// Employee
+		coder.printName();						// Programmer - runtime
 	}
 
 	// Interfaces can also be used to define abstract methods which are then each implemented
